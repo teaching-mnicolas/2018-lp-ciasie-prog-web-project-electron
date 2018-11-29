@@ -1,0 +1,122 @@
+
+:root{
+    color:white;
+    font-family: system-ui;
+    --main-blue: rgb(30, 30, 109);
+    background-color:var(--main-blue);
+}
+#date{
+    font-size: 1.2em;
+ 
+}
+div div{
+    margin-right: 2%;
+}
+
+#hour_number,
+#minute_number{
+    font-size: 3em;
+}
+
+body div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer_button,
+#calendar_button,
+#clock_button{
+    text-decoration:none;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+}
+#timer_button:hover,
+#calendar_button:hover,
+#clock_button:hover{
+    background-color: blue;
+}
+
+#hour_number,
+#minute_number{
+    background-color: var(--main-blue);
+    border:none;
+    color:white;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: blue;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px blue;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+

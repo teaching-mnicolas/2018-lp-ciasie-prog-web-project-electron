@@ -1,0 +1,59 @@
+
+:root{
+    color:white;
+    font-family: system-ui;
+    --main-blue: rgb(30, 30, 109);
+    background-color:var(--main-blue);
+}
+.container{
+    display: grid;
+    grid-template: 2em auto 2em 1fr/repeat(3,1fr);
+}
+.container div{
+    text-align: center;
+}
+
+#hours,
+#minutes,
+#seconds{
+    font-size: 3em;
+}
+#more_hours,
+#more_minutes,
+#more_seconds,
+#less_hours,
+#less_minutes,
+#less_seconds,
+#clock,
+#start,
+#stop{
+    border:1px solid white;
+    font-size:1em;
+    padding-top:5%;
+    margin-right: 3%;
+    margin-left:3%;
+
+}
+#clock,
+#start,
+#stop{
+    margin-top:10%;
+    padding:2%;
+}
+
+#clock_button{
+    text-decoration:none;
+    color:white;
+}
+#more_hours:hover,
+#more_minutes:hover,
+#more_seconds:hover,
+#less_hours:hover,
+#less_minutes:hover,
+#less_seconds:hover,
+#clock:hover,
+#start:hover,
+#stop:hover{
+    background-color: blue;
+}
+

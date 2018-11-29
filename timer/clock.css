@@ -1,0 +1,49 @@
+:root{
+    color:white;
+    font-family: system-ui;
+    background-color: rgb(30, 30, 109);
+}
+#date{
+    font-size: 1.2em;
+ 
+}
+div div{
+    margin-right: 2%;
+}
+
+#hour{
+    font-size: 3em;
+}
+
+body div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#calendar_button,
+#alarm_button{
+    text-decoration:none;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: auto;
+}
+#calendar_button:hover,
+#alarm_button:hover{
+    background-color: blue;
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+:root{
+    color:white;
+    font-family: system-ui;
+    --main-blue: rgb(30, 30, 109);
+    background-color:var(--main-blue);
+}
+.container{
+    display:grid;
+    grid-template: repeat(6,1fr)/repeat(7,1fr);
+    margin-top:1%;
+}
+
+.day{
+    border: 1px solid white;
+    height: 77px;
+    text-align:right;
+    padding-left: 5%;
+}
+body div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#previous_month,
+#next_month{
+    margin-left:5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-left:5%;
+    font-size: 2em;
+    border:1px solid white;
+}
+.day:hover,
+#previous_month:hover,
+#next_month:hover{
+    background-color: blue;
+}
+#month{
+    width: 150px;
+}
+#days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top:1%;
+}
+#days div{
+    padding-left: 3%;
+}
+
